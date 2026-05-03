@@ -6,4 +6,5 @@ Componentes:
 Antônio Pereira
 José Acassio
 Luiz Wendel
+Mateus Oliveira
 Athos Laurence
