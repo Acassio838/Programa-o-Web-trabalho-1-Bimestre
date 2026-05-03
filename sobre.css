@@ -1,0 +1,53 @@
+body {
+margin:0;
+font-family: Arial;
+background:#e6e6e6;
+}
+
+header {
+background:#0d4d8b;
+color:white;
+text-align:center;
+padding:20px;
+border-bottom:4px solid red;
+}
+
+nav {
+background:#333;
+display:flex;
+justify-content:center;
+padding:10px;
+}
+
+nav a {
+color:white;
+margin:0 15px;
+text-decoration:none;
+}
+
+.container {
+display:flex;
+justify-content:center;
+padding:40px;
+}
+
+.card {
+background:white;
+padding:30px;
+border-radius:10px;
+max-width:800px;
+}
+
+footer {
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+/* RESPONSIVO */
+@media (max-width:768px){
+.container { padding:20px; }
+.card { width:100%; }
+nav { flex-direction:column; }
+}
